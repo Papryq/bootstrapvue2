@@ -8,8 +8,8 @@
     <TheQuestions />
     <TheTrainers />
     <TheNewsletter />
-    <Footer />
     <TheModal />
+    <TheFooter />
 
   </div>
 </template>
@@ -24,8 +24,8 @@ import WorkoutSection from '@/components/WorkoutSection.vue'
 import TheQuestions from '@/components/TheQuestions.vue'
 import TheTrainers from '@/components/TheTrainers.vue'
 import TheNewsletter from '@/components/TheNewsletter.vue'
-import TheFooter from '@/components/TheFooter.vue'
 import TheModal from '@/components/TheModal.vue'
+import TheFooter from '@/components/TheFooter.vue'
 
 
 
@@ -41,8 +41,24 @@ export default {
     TheQuestions,
     TheTrainers,
     TheNewsletter,
-    TheFooter,
-    TheModal
+    TheModal,
+    TheFooter
   },
 }
 </script>
+
+<style>
+body::before {
+  display: block;
+  content: '';
+  height: 50px;
+}
+
+
+@media(min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+</style>

@@ -9,10 +9,7 @@
             <div class="modal-body">
                 <ModalForm />
                 </div>
-            <div class="modal-footer justify-content-between">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                 <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+                <ModalButton />
         </div>
       </div>
     </div>
@@ -20,10 +17,15 @@
 </template>
 
 <script>
+import ModalForm from '@/components/ModalForm.vue'
+import ModalButton from '@/components/ModalButton.vue'
+
+
 export default {
     name: 'TheModal',
     components: {
         ModalForm,
-    }
+        ModalButton,
+    },
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <section id="newsletter" class="p-5">
+    <section class="p-5">
         <div class="container">
           <div class="d-md-flex justify-content-between align-items-center">
             <div class="card bg-primary text-light">
@@ -24,3 +24,14 @@ export default {
     name: 'TheNewsletter'
 }
 </script>
+
+<style scoped>
+
+section {
+  border-top: solid 1px #212529;
+}
+
+
+
+
+</style>

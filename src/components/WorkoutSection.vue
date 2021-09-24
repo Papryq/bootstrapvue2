@@ -1,5 +1,5 @@
 <template>
-        <section class="p-5 bg-dark text-light">
+        <section id="workout" class="p-5 bg-dark text-light">
           <div class="container">
             <div class="row align-items-center justify-content-between">
               <div class="col-md p-5 workout-left">
@@ -13,7 +13,7 @@
                   </a>
                 </div>
               <div class="col-md workout-right">
-                  <img src="img/workout.svg" class="img-fluid" alt="">
+                  <img src="@/assets/photos/workout.svg" class="img-fluid" alt="">
               </div>
             </div>
           </div>

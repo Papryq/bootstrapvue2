@@ -1,5 +1,5 @@
 <template>
-                <form>
+        <form>
           <div class="d-flex flex-row">
             <div class="form-group">
               <label for="inputEmail4">Email</label>
@@ -49,6 +49,6 @@
 
 <script>
 export default {
-    name: 'ModulForm'
+    name: 'ModalForm'
 }
 </script>
